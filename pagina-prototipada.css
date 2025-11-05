@@ -183,19 +183,22 @@
         object-fit: cover;
         border-radius: 0px;
     }
-    .projeto-item figcaption {
+    .projeto-item button {
+        margin-left: 2.5%;
         color: white;
         background-color: #F53B49;
         border-radius: 999px;
         font-weight: bold;
         border: none;
         margin-top: 15px;
-        font-size: 1.1em;
+        font-size: 1.05em;
         padding: 5px;
+        padding-left: 21%;
+        padding-right: 21%;
         cursor: pointer;
         margin-bottom: 80px;
     }
-    .projeto-item figcaption:hover {
+    .projeto-item button:hover {
         background-color: #bd1321;
     }
     /* Aqui termina a seção 3!!! */
