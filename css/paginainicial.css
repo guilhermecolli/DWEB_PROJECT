@@ -64,9 +64,11 @@
         padding: 5px;
         width: 50%;
         height: 10%;
+        transition: background-color 0.3s ease, transform 0.3s ease;
     }
     .bloco1 button:hover {
         background-color: #266820;
+        transform: scale(1.05);
         cursor: pointer;
     }
     .bloco1 figure {
@@ -82,16 +84,15 @@
     }
     .container-depoimentos {
         display: grid;
-        grid-template-columns: repeat(3, 1fr); /* 3 colunas iguais */
-        gap: 5px 0; /* Espaço entre os cards */
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px 0;
         max-width: 80%;
         margin: 0 auto;
         margin-bottom: 120px;
     }
-    /* Agora, você estiliza o card em si */
     .card-depoimento {
-        background-color: #182D3B; /* Um fundo escuro, como na imagem */
-        color: #fff; /* Texto claro */
+        background-color: #182D3B;
+        color: #fff;
         padding: 15px;
         border-radius: 8px;
         max-width: 100%;
@@ -102,18 +103,18 @@
         transition: background-color 0.3s ease, transform 0.3s ease;
     }
     .card-depoimento header {
-        display: flex; /* Para alinhar a imagem e o texto lado a lado */
+        display: flex;
         align-items: center;
         margin-bottom: 15px;
     }
     .card-depoimento header img {
         width: 50px;
         height: 50px;
-        border-radius: 50%; /* Deixa o avatar redondo */
+        border-radius: 50%;
         margin-right: 10px;
     }
     .card-depoimento .estrelas {
-        color: #fdd835; /* Cor amarela para as estrelas */
+        color: #fdd835;
     }
     .card-depoimento .data {
         color: #D3D3D3;
@@ -124,7 +125,7 @@
     }
     .card-depoimento blockquote p {
         font-size: 10px;
-        color: #fff; /* Um cinza claro para o texto principal */
+        color: #fff;
         text-align: left;
     }
     .card-depoimento:hover {
@@ -165,7 +166,7 @@
         margin-bottom: 5px;
         display: inline-block;
     }
-    .colunainput input {
+    .colunainput input, textarea {
         width: 100%;
         padding: 12px;
         margin-bottom: 15px;
@@ -174,9 +175,6 @@
         border: none;
         border-radius: 5px;
         box-sizing: border-box; 
-    }
-    .colunainput input[id="Motivo"] {
-        padding-bottom: 150px;
     }
     .colunainput button {
         display: block;
