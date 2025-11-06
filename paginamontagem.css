@@ -1,0 +1,421 @@
+/* ======================================= */
+/* --- ESTILOS GERAIS --- */
+/* ======================================= */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #2A3B49; 
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1; /* Empurra o rodapé principal para baixo */
+}
+
+/* ======================================= */
+/* --- SEÇÃO 1: CABEÇALHO DO EDITOR --- */
+/* ======================================= */
+.cabecalho-editor {
+    text-align: center;
+    background-color: #26323A;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cabecalho-editor h2 {
+    margin: 0;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+/* ======================================= */
+/* --- SEÇÃO 2: PÁGINA DO EDITOR --- */
+/* ======================================= */
+.editor-pagina {
+    background-color: rgba(24, 36, 44, 1);
+    border-top: 4px solid #3DAA33;
+    border-bottom: 4px solid #3DAA33;
+}
+
+/* --- ESTILOS GLOBAIS DO EDITOR --- */
+
+/* Botão Vermelho Reutilizável */
+.input-botao-vermelho {
+    background-color: #E53935;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.input-botao-vermelho::placeholder {
+    color: #fff;
+}
+
+/* Base para Avatares (UNIFICADO) */
+.avatar-pequeno,
+.avatar-grande {
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    color: #1B2630;
+    
+    /* Caminho para o seu ícone de avatar */
+    background-image: url("Icones/avatar.svg"); 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Base para Ícones Sociais (UNIFICADO) */
+.icone-instagram,
+.icone-linkedin,
+.icone-github {
+    background-color: #E53935;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    flex-shrink: 0;
+}
+
+.icone-instagram:hover,
+.icone-linkedin:hover,
+.icone-github:hover {
+    background-color: #bd1321;
+}
+
+/* Caminhos para os ícones */
+.icone-instagram {
+    background-image: url("Icones/instagram.svg");
+    background-size: 60%; 
+}
+.icone-linkedin {
+    background-image: url("Icones/linkedin.svg");
+    background-size: 60%;
+}
+.icone-github {
+    background-image: url("Icones/github.svg");
+    background-size: 70%;
+}
+
+
+/* --- Sub-seção 2.1: Topo --- */
+.secao-topo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    min-height: calc(100vh - 80px);
+    padding: 40px 60px;
+    box-sizing: border-box;
+    background-color: #18242C;
+}
+
+.avatar-pequeno {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 25px;
+    background-size: 50%; /* 50% de 200px = 100px */
+}
+
+.input-titulo-principal,
+.input-subtitulo {
+    background: transparent;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+}
+.input-titulo-principal {
+    font-size: 52px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.input-subtitulo {
+    font-size: 18px;
+    font-weight: 500;
+    color: #D3D3D3;
+    margin-bottom: 25px;
+}
+.input-titulo-principal::placeholder {
+    color: #fff;
+    opacity: 0.9;
+}
+.input-subtitulo::placeholder {
+    color: #D3D3D3;
+    opacity: 0.9;
+}
+
+/* --- Sub-seção 2.2: Sobre --- */
+.secao-sobre {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    min-height: calc(100vh - 80px);
+    padding: 60px 80px;
+    box-sizing: border-box;
+    background-color: #26323A;
+}
+
+.coluna-texto {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input-titulo-secao,
+.input-titulo-secao-menor,
+.input-paragrafo {
+    background: transparent;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 0;
+    resize: none;
+}
+.input-titulo-secao {
+    font-size: 48px;
+    font-weight: 700;
+}
+.input-titulo-secao-menor {
+    font-size: 36px;
+    font-weight: 700;
+}
+.input-paragrafo {
+    font-size: 16px;
+    color: #D3D3D3;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.input-titulo-secao::placeholder,
+.input-titulo-secao-menor::placeholder {
+    color: #fff;
+    opacity: 0.9;
+}
+.input-paragrafo::placeholder {
+    color: #D3D3D3;
+    opacity: 0.9;
+}
+
+.botoes-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.botoes-container .input-botao-vermelho {
+    width: auto;
+}
+
+.coluna-avatar {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar-grande {
+    width: 350px;
+    height: 350px;
+    background-size: 60%; /* 60% de 350px = 210px */
+}
+
+/* --- Sub-seção 2.3: Projetos --- */
+.secao-projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 80px);
+    padding: 60px 80px;
+    box-sizing: border-box;
+    background-color: #1B2630;
+}
+
+.secao-projetos .input-titulo-secao {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 60px;
+}
+
+.projetos-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.projeto-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px; 
+}
+
+.projeto-placeholder {
+    width: 300px;
+    height: 300px;
+    background-color: #f0f0f0;
+}
+
+.projeto-item .input-botao-vermelho {
+    width: 100%;
+    margin-top: 30px;
+}
+
+/* --- Sub-seção 2.4: Rodapé do Protótipo --- */
+.secao-rodape-prototipo {
+    padding-top: 60px;
+}
+
+.rodape-prototipo-conteudo {
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px 60px 40px;
+    flex-wrap: wrap; 
+    gap: 80px;
+}
+
+.rodape-prototipo-coluna {
+    flex: 1;
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+.rodape-prototipo-coluna.centralizada {
+    align-items: center;
+}
+
+.input-rodape-titulo {
+    background: transparent;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 20px; 
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+.input-rodape-titulo::placeholder { color: #fff; opacity: 0.9; }
+
+.input-rodape-texto {
+    background: transparent;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    color: #D3D3D3;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+.input-rodape-texto::placeholder { color: #D3D3D3; opacity: 0.9; }
+
+.centralizada .input-rodape-titulo,
+.centralizada .input-rodape-texto {
+    text-align: center;
+}
+
+.icones-sociais {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.rodape-prototipo-copyright {
+    background-color: #E53935;
+    text-align: center;
+    padding: 20px 40px;
+}
+
+.input-copyright {
+    background: transparent;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    width: 100%;
+}
+.input-copyright::placeholder { color: #fff; }
+
+
+/* ======================================= */
+/* --- SEÇÃO 3: BOTÃO CONCLUIR --- */
+/* ======================================= */
+.secao-concluir {
+    padding: 20px 60px 40px 60px; 
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+
+.btn-concluir {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn-concluir:hover {
+    background-color: #45a049;
+}
+
+/* ======================================= */
+/* --- SEÇÃO 4: RODAPÉ PRINCIPAL --- */
+/* ======================================= */
+.rodape-principal {
+    background-color: #041420;
+    padding: 60px 40px;
+}
+
+.rodape-principal-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+
+.rodape-principal-coluna {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.rodape-principal-coluna p {
+    font-size: 14px;
+    color: #D3D3D3;
+    margin: 8px 0;
+}
