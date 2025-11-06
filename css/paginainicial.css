@@ -159,6 +159,7 @@
         padding: 25px;
         max-width: 500px;
         margin: 20px auto;
+        transition: background-color 0.3s ease, transform 0.3s ease;
     }
     .colunainput label {
         font-weight: bold;
@@ -192,6 +193,28 @@
     .colunainput button:hover {
         background-color: #266820;
         cursor: pointer;
+    }
+    .escondido {
+        display: none;
+        opacity: 0;
+    }
+    #form-contato, #mensagem-obrigado {
+        transition: opacity 0.5s ease;
+    }
+    #mensagem-obrigado {
+        color: #D3D3D3;
+        text-align: left;
+        font-size: 20px;
+        margin-right: 15%;
+        padding: 40px;
+        background-color: #182D3B;
+        
+    }
+    #mensagem-obrigado h2 {
+        color: #fff;
+        font-size: 80px;
+        font-weight: 800;
+        margin-bottom: 15px;
     }
     /* Fim da Terceira Seção */
 

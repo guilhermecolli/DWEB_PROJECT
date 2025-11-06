@@ -48,7 +48,7 @@
                     <p>Entre em contato conosco preenchendo o formulário ao lado.</p>
                 </div>
 
-                <form class="colunainput">
+                <form class="colunainput" id="form-contato">
                     <label for="Nome">Nome*</label><br>
                     <input type="text" id="Nome" required><br>
                     <label for="E-mail">Email*</label><br>
@@ -57,6 +57,11 @@
                     <textarea type="text" rows="15" id="Motivo" required></textarea><br>
                     <button type="submit">Enviar</button>
                 </form>
+
+                <div id="mensagem-obrigado" class="escondido">
+                    <h2>Obrigado!</h2>
+                    <p>Retornaremos o contato assim que possível!</p>
+                </div>
             </div>
          </section>
 
@@ -82,6 +87,7 @@
             </div>
         </div>
     </footer>
+    <script src="js/msg-sucesso.js"></script>
     </main>
 </body>
 </html>
