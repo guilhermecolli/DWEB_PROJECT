@@ -80,7 +80,7 @@
         font-weight: 800;
         font-size: 80px;
     }
-    .bloco2 {
+    .depoimentos {
         display: flex;
         flex-wrap: wrap;
         text-align: center;
@@ -92,10 +92,10 @@
         gap: 0px;
         margin-bottom: 120px;
     }
-    .bloco2 img {
+    .depoimentos img {
         width: 20em;
     }
-    .bloco2 figure {
+    .depoimentos figure {
         margin: 5px;
     }
     /* Fim Segunda Seção */
