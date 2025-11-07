@@ -1,11 +1,25 @@
+//const senhaConfirmation = document.getElementById("password-confirmation");
 const form = document.getElementById("cadastro");
-const nome = document.getElementById("name");
-const email = document.getElementById("email");
-const senha = document.getElementById("password");
-const senhaConfirmation = document.getElementById("password-confirmation");
 
 form.addEventListener("submit", (event) => {
-    event.preventDefault();
 
-    alert("Cadastrado");
-})
+    const nome = document.getElementById("name").value;
+    const email = document.getElementById("email-cadastro").value;
+    const senha = document.getElementById("password-cadastro").value;
+
+    const dados = {
+        nome: nome,
+        email: email,
+        senha: senha
+    };
+
+    fetch("http://localhost:3000/users", {
+
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify(dados),
+    })
+
+});
