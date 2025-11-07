@@ -10,6 +10,7 @@ h1 {
     font-weight: 800;
     font-size: 50px;
 }
+
 .cortitulo {
     color: #F53B49;
 }
@@ -49,7 +50,7 @@ h1 {
     box-sizing: border-box;
 }
 
-.coluna-form .btn {
+.coluna-form input[type="submit"] {
     width: 100%;
     padding: 12px;
     border: none;
@@ -62,6 +63,6 @@ h1 {
     transition: background-color 0.2s;
 }
 
-.coluna-form .btn:hover {
+.coluna-form input[type="submit"]:hover {
     background-color: rgba(38, 104, 32, 1);
 }

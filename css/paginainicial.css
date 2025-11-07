@@ -177,7 +177,7 @@
         border-radius: 5px;
         box-sizing: border-box; 
     }
-    .colunainput button {
+    .colunainput input[name="acao"] {
         display: block;
         margin: 20px auto 0 auto;
         border-radius: 10px;
@@ -190,7 +190,7 @@
         width: auto;
         height: auto;
     }
-    .colunainput button:hover {
+    .colunainput input[name="acao"]:hover {
         background-color: #266820;
         cursor: pointer;
     }

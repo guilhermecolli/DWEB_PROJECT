@@ -19,26 +19,29 @@
             <!-- Lado esquerdo (login) do quadro -->
             <div class="coluna-form" id="login">
                 <h2>Login</h2>
-                <form action="paginainicial.html">
-                    <input type="email" placeholder="Email: usuario.cefet@gmail.com" required>
-                    <input type="password" placeholder="Senha: ••••••••••••" required>
-                    <button type="submit" class="btn">Entrar</button>
+                <form action="#">
+                    <input type="email" id="email" placeholder="Email: usuario.cefet@gmail.com" required>
+                    <input type="password" id="senha" placeholder="Senha: ••••••••••••" required>
+                    <input type="submit" name="acao-login" value="Entrar" onclick="return login();">
+                    <!--<button type="submit" class="btn">Entrar</button>-->
                 </form>
             </div>
 
             <!-- Lado direito (Cadastro) do quadro -->
             <div class="coluna-form" id="cadastro">
                 <h2>Cadastro</h2>
-                <form action="paginainicial.html">
-                    <input type="text" placeholder="Nome: Usuário do Deploy Me" required>
-                    <input type="email" placeholder="Email: usuario.cefet@gmail.com" required>
-                    <input type="password" placeholder="Senha: ••••••••••••" required>
-                    <input type="password" placeholder="Confirmar senha: ••••••••••••" required>
-                    <button type="submit" class="btn">Cadastrar</button>
+                <form action="#" id="cadastro">
+                    <input type="text" id="name" placeholder="Nome: Usuário do Deploy Me" required>
+                    <input type="email" id="email" placeholder="Email: usuario.cefet@gmail.com" required>
+                    <input type="password" id="password" placeholder="Senha: ••••••••••••" required>
+                    <input type="password" id="password-confirmation" placeholder="Confirmar senha: ••••••••••••" required>
+                    <input type="submit" name="acao-cadastro" value="Cadastrar">
+                    <!--<button type="submit" class="btn">Cadastrar</button>-->
                 </form>
             </div>
 
          </section>
+         <script src="js/cadastro.js"></script>
     </main>
 </body>
 </html>
