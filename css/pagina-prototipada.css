@@ -92,7 +92,7 @@
     }
     .instagram {
         background-color: #F53B49;
-        background-image: url("Icones/instagram.svg");
+        background-image: url("../Icones/instagram.svg");
         background-repeat: no-repeat;
         background-position: 51% 50%;
         background-size: 70%;
@@ -111,7 +111,7 @@
     }
     .linkedin {
         background-color: #F53B49;
-        background-image: url("Icones/linkedin.svg");
+        background-image: url("../Icones/linkedin.svg");
         background-repeat: no-repeat;
         background-position: 50% 40%;
         background-size: 70%;
@@ -236,7 +236,7 @@
     }
     .github {
         background-color: #F53B49;
-        background-image: url("Icones/github.svg");
+        background-image: url("../Icones/github.svg");
         background-repeat: no-repeat;
         background-position: 51.24% 55%;
         background-size: 80%;

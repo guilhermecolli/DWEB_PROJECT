@@ -69,7 +69,7 @@ main {
     color: #1B2630;
     
     /* Caminho para o seu ícone de avatar */
-    background-image: url("Icones/avatar.svg"); 
+    background-image: url("../Icones/avatar.svg"); 
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -98,15 +98,15 @@ main {
 
 /* Caminhos para os ícones */
 .icone-instagram {
-    background-image: url("Icones/instagram.svg");
+    background-image: url("../Icones/instagram.svg");
     background-size: 60%; 
 }
 .icone-linkedin {
-    background-image: url("Icones/linkedin.svg");
+    background-image: url("../Icones/linkedin.svg");
     background-size: 60%;
 }
 .icone-github {
-    background-image: url("Icones/github.svg");
+    background-image: url("../Icones/github.svg");
     background-size: 70%;
 }
 
@@ -220,6 +220,7 @@ main {
     align-items: center;
     gap: 15px;
 }
+
 .botoes-container .input-botao-vermelho {
     width: auto;
 }
