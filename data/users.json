@@ -1,0 +1,10 @@
+{
+  "usuarios": [
+    {
+      "id": "adf6",
+      "nome": "Deploy Me",
+      "email": "deployme@gmail.com",
+      "senha": "deploYment"
+    }
+  ]
+}
