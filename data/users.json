@@ -1,10 +1,16 @@
 {
-  "usuarios": [
+  "usuario": [
     {
       "id": "adf6",
       "nome": "Deploy Me",
       "email": "deployme@gmail.com",
       "senha": "deploYment"
+    },
+    {
+      "id": "2faa",
+      "nome": "xsxsxsx",
+      "email": "sxsxxs@gmail.com",
+      "senha": "xsxsxs"
     }
   ]
 }
