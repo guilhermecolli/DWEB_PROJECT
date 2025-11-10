@@ -1,21 +1,22 @@
 /* ======================================= *\
     1. ESTILOS GERAIS (Base e Tipografia)
 \* ======================================= */
-
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
     background-color: #1a1a1a;
     color: #fff;
+    
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* vh: viewport-height */
+    min-height: 100vh;
 }
 
 main {
     background-color: rgba(24, 45, 59, 1);
     text-align: center;
     padding: 100px 40px;
+
     flex-grow: 1; /* preenche o espaço vazio que estava sendo gerado pelo container do rodapé */
 }
 
