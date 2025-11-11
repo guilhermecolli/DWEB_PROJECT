@@ -5,6 +5,7 @@
 body {
     background-color: rgba(24, 36, 44, 1);
     font-family: 'Poppins', sans-serif;
+    margin: 0;
     color: #fff;
 }
 
@@ -27,6 +28,7 @@ img[alt="foto-dev"] {
 /* -------------------------------------- *\
     2.1 -> Título da seção e subtítulo
 \* -------------------------------------- */
+
 .firstsection {
     text-align: center;
     margin-bottom: 100px;
