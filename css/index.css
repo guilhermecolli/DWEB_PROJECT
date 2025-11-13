@@ -20,7 +20,6 @@ h1 {
     color: #F53B49;
 }
 
-
 /*------------------------------------*\
   2. LAYOUT PRINCIPAL (Container)
 \*------------------------------------*/
@@ -81,5 +80,5 @@ h1 {
 }
 
 .coluna-form input[type="submit"]:hover {
-    background-color: rgba(38, 104, 32, 1);
+    background-color: #266820;
 }

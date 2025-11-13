@@ -92,7 +92,6 @@ main {
     height: 44px;
     cursor: pointer;
     transition: background-color 0.2s;
-    flex-shrink: 0;
 }
 
 .icone-instagram:hover,
@@ -274,7 +273,7 @@ main {
     width: 300px;
     margin-left: 20px;
     margin-right: 20px;
-    padding: 20px; 
+    padding: 20px;
 }
 
 .projeto-placeholder {
@@ -308,7 +307,6 @@ main {
     min-width: 280px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start; 
 }
 
 .rodape-prototipo-coluna.centralizada {
@@ -327,7 +325,11 @@ main {
     width: 100%;
     box-sizing: border-box;
 }
-.input-rodape-titulo::placeholder { color: #fff; opacity: 0.9; }
+
+.input-rodape-titulo::placeholder {
+    color: #fff;
+    opacity: 0.9;
+}
 
 .input-rodape-texto {
     background: transparent;
@@ -340,7 +342,10 @@ main {
     width: 100%;
     box-sizing: border-box;
 }
-.input-rodape-texto::placeholder { color: #D3D3D3; opacity: 0.9; }
+.input-rodape-texto::placeholder {
+    color: #D3D3D3;
+    opacity: 0.9;
+}
 
 .centralizada .input-rodape-titulo,
 .centralizada .input-rodape-texto {
@@ -370,7 +375,9 @@ main {
     width: 100%;
 }
 
-.input-copyright::placeholder { color: #fff; }
+.input-copyright::placeholder {
+    color: #fff;
+}
 
 
 /* ======================================= */
@@ -387,7 +394,7 @@ main {
 }
 
 .btn-concluir {
-    background-color: #4CAF50;
+    background-color:#3daa33;
     color: white;
     font-weight: bold;
     font-size: 14px;
@@ -399,7 +406,7 @@ main {
 }
 
 .btn-concluir:hover {
-    background-color: #45a049;
+    background-color: #266820;
 }
 
 /* ======================================= */
