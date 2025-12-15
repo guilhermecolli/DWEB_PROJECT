@@ -12,13 +12,21 @@ body {
 img {
     border-radius: 50%; /* deixa a imagem redonda */
     border: 5px solid #F53B49;
-    width: 20%;
+    object-fit: cover;
     margin-top: 100px;
 }
 
-img[alt="foto-dev"] {
+#cabeca-img, #sobre-img{
+    border-radius: 50%; /* deixa a imagem redonda */
+    border: 5px solid #F53B49;
+    object-fit: cover;
     height: 300px;
     width: 300px;
+}
+
+#sobre-img{
+    height: 450px;
+    width: 450px;
 }
 
 /* ================================================================= *\

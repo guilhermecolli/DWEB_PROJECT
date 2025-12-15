@@ -1,0 +1,36 @@
+[
+  {
+    "cabeca": {
+      "imagem": "Icones/foto.jpg",
+      "titulo": "FRONT-END DEVELOPER & HTML AND CSS EXPERT",
+      "subtitulo": "Breve texto sobre o desenvolvedor e o que ele tem a oferecer.",
+      "botaoTexto": "Fale Comigo!"
+    },
+    "sobre": {
+      "tituloHtml": "Olá, meu nome é<br>Pedro",
+      "subtitulo": "FrontEnd Developer",
+      "descricao": "Sou um Dev Front-End em crescimento na Ásia e eventualmente no mundo todo.",
+      "imagem": "Icones/foto.jpg",
+      "botaoContato": "Entre em Contato!"
+    },
+    "projetos": [
+      {
+        "titulo": "TÍTULO DO PROJETO 1",
+        "imagem": "imagens/exemplo_proj_1.png"
+      },
+      {
+        "titulo": "TÍTULO DO PROJETO 2",
+        "imagem": "imagens/exemplo_proj_2.jpg"
+      },
+      {
+        "titulo": "TÍTULO DO PROJETO 3",
+        "imagem": "imagens/exemplo_proj_3.jpeg"
+      }
+    ],
+    "footer": {
+      "email": "desenvolvedor@gmail.com",
+      "telefone": "+55 32 99999-0000",
+      "copy": "&copy Deploy Me . All rights reserverd"
+    }
+  }
+]
