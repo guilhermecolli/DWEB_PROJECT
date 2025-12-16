@@ -3,13 +3,13 @@
     "cabeca": {
       "imagem": "Icones/foto.jpg",
       "titulo": "FRONT-END DEVELOPER & HTML AND CSS EXPERT",
-      "subtitulo": "Breve texto sobre o desenvolvedor e o que ele tem a oferecer.",
+      "subtitulo": "O Dev Front-End que sua página precisava!",
       "botaoTexto": "Fale Comigo!"
     },
     "sobre": {
-      "tituloHtml": "Olá, meu nome é<br>Pedro",
+      "tituloHtml": "Olá, meu nome é Pedro",
       "subtitulo": "FrontEnd Developer",
-      "descricao": "Sou um Dev Front-End em crescimento na Ásia e eventualmente no mundo todo.",
+      "descricao": "Sou um Dev Front-End em crescimento na Ásia e eventualmente no mundo todo. Sempre buscando conhecimento nesse vasto mundo da tecnologia!",
       "imagem": "Icones/foto.jpg",
       "botaoContato": "Entre em Contato!"
     },
@@ -28,9 +28,9 @@
       }
     ],
     "footer": {
-      "email": "desenvolvedor@gmail.com",
+      "email": "devpedro@gmail.com",
       "telefone": "+55 32 99999-0000",
-      "copy": "&copy Deploy Me . All rights reserverd"
+      "copy": "&copy Pedro. All rights reserverd"
     }
   }
 ]
